@@ -1,0 +1,35 @@
+.main{
+    background-image: url(../6be74cf2eb1c6873c0183fcd8abf9d0f.jpg);
+    
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-content: center !important;
+
+    position: fixed;
+    width: 100%;
+    color: white !important;
+    justify-content: center;
+    
+
+}
+.container{
+    position: absolute;
+    width: 40%;
+bottom: 10%;
+right: 30%;
+background: linear-gradient(#080808dc,#0a0909af);
+    
+    border-radius: 10px;
+    
+    
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 100%;
+    height: 100vh;
+    z-index: 150;
+    backdrop-filter: blur(1px);
+}
+

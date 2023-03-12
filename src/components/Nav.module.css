@@ -1,0 +1,41 @@
+
+.link{
+ 
+   transition: all .3s linear;
+   border-radius: 10px;
+   margin:5px ;
+   color: white !important;
+  
+  
+}
+.link:hover{
+ background-color:#5c5a5a98;
+color: darkgrey;
+
+transition: all .3s linear;
+
+
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    
+    background: rgba(0, 0, 0, 0.76) ;
+   z-index: 1001;
+}
+.botton{
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(17, 6, 168);
+}
+.form{
+    border-radius: 15px;
+    height: 30px;
+    width: 20%;
+    margin-left: none;
+    transition: all .2s linear;
+}
+.form:focus{
+ transform: scale(1.05)
+}

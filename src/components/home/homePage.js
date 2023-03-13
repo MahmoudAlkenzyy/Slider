@@ -9,10 +9,13 @@ const Homa = () => {
   const {movie} = useSelector((state) => state.movie)
   
   return (
-    <div className={style.mainc}>
+    <div className={`${style.mainc}`}>
+    <div className={` container`}>
       
+      <div className={`${style.fir} `}>
+      </div>
       
-      <Slider movie={movie} />
+      </div>
       
      
         </div>

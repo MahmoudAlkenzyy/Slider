@@ -25,7 +25,7 @@ function Slideer({ movie }) {
             // <img src={item.Images[1]} alt='imagem' title='imagem' id={item.imdbID} style={{height:'200px'}}/>
   ))
     return (
-        <div className='container mt-5'>
+        <div className={`${style.main} container main`}>
         <Slider autoplay={3000}>
         {movie.map((item, index) => (
           <div

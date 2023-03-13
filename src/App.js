@@ -24,7 +24,7 @@ const {movie} = useSelector((state) => state.movie)
 console.log(movie)
   return (
     <div className="App bg-dark">
-      <Navbar  />
+      <Navbar  fixed="top"/>
      <Outlet/>
      {/* 
   <Slider movie={movie} />*/}

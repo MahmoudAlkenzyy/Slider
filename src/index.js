@@ -10,8 +10,8 @@ import{ createBrowserRouter, RouterProvider }from 'react-router-dom'
 import SignUP from './components/signUp/signUp';
 import LogIn from './components/logIn/loginPage';
 import Homa from './components/home/homePage.js';
-import Slider from './components/slider/slider';
 
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
 

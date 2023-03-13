@@ -16,8 +16,8 @@
 }
 .container{
     position: absolute;
-    width: 40%;
-bottom: 10%;
+    width: 40% !important;
+bottom: 20%;
 right: 30%;
 background: linear-gradient(#080808dc,#0a0909af);
     

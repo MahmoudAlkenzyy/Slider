@@ -2,5 +2,15 @@
     background-color: aliceblue;
     height: 100vh;
     width: 100%;
-    background-image: url();
+    background-image: url;
+}
+.fir{
+    background-image: url(https://images8.alphacoders.com/100/1003220.png);
+    width: 90%;
+    height: 70dvh;
+    background-size: cover;
+    background-position: center;
+    left: 5%;
+    position: absolute;
+   filter: brightness(.5);
 }

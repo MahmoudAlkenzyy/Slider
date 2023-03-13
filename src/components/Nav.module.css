@@ -20,9 +20,10 @@ transition: all .3s linear;
     position: fixed;
     width: 100%;
     top: 0px;
-    
-    background: rgba(0, 0, 0, 0.76) ;
+    background: linear-gradient(to right, #232526, #414345);
+    height: 60px;
    z-index: 1001;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.801);
 }
 .botton{
     border-radius: 5px;
@@ -30,12 +31,18 @@ transition: all .3s linear;
     background-color: rgb(17, 6, 168);
 }
 .form{
-    border-radius: 15px;
+    border-radius: 20px;
     height: 30px;
     width: 20%;
     margin-left: none;
     transition: all .2s linear;
 }
 .form:focus{
- transform: scale(1.05)
+ transform: scale(1.05);
+ transition: all .2s linear;
+
+ 
+}
+.drop{
+    background-color: #23252600 !important;
 }

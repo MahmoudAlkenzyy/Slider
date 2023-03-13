@@ -48,7 +48,7 @@ const SignUP = () => {
             <button className="btn btn-dark">Sign up</button>
             <hr/>
 
-            <p className="text-secondary">Already have an account? <a href="/home/login" className="badge badge-light">Login</a></p>
+            <p className="text-secondary">Already have an account? <a href="/home/login" className="badge badge-light text-dark">Login</a></p>
                   </form>
             </div>
         <div className={`${style.fir} col-6`}>

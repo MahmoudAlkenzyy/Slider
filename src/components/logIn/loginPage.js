@@ -1,14 +1,16 @@
 import { Fragment } from "react";
 import style from './loginPage.module.css'
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+
 import {   MDBContainer, MDBInput, MDBCheckbox, MDBBtn, MDBIcon}from 'mdb-react-ui-kit';
 const LogIn = () => {
     return (
-      <div style={{}} className={style.main}>
+      <div style={{}} className={`${style.main}`}>
         <div className={style.overlay } />
         <MDBContainer className={`p-3 my-5 d-flex flex-column   ${style.container}`}>
     
-          <MDBInput wrapperClass='mb-4' label='Email address' id='form1' type='email'/>
-          <MDBInput wrapperClass='mb-4' label='Password' id='form2' type='password'/>
+          <MDBInput wrapperClass='mb-4' label={<span className='text-light'>Email address</span>} id='form1' type='email'/>
+          <MDBInput wrapperClass='mb-4' label={<span className='text-light'>Password</span>} id='form2' type='password'/>
     
           <div className="d-flex justify-content-between mx-3 mb-4">
             <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />

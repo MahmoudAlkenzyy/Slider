@@ -12,7 +12,7 @@ function Slideer({ movie }) {
         movie.map((item) => (
 
             <div className="card bg-dark text-white m-1">
-        <img className="card-img " src={item.Images[1]} alt="image" d={item.imdbID} style={{height:'300px'}}/>
+        <img className="card-img " src={item.Images[1]} alt="images" d={item.imdbID} style={{height:'300px'}}/>
         <div className="card-img-overlay d-flex flex-column">
             
             <h3 className="card-text font-weight-bold"><span className="mr-auto"></span></h3>

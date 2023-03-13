@@ -65,7 +65,14 @@ function NavScrollExample() {
           </MDBNavbarItem>
         </MDBNavbarNav>
         <MDBInput wrapperClass={`{style.form}`} label={<span className={` text-light`}>Search</span>} id='form2' type='password'/>
-
+        <MDBDropdown className='shadow-0'>
+              <MDBDropdownToggle color='dark' className={style.drop}>Dropdown button</MDBDropdownToggle>
+            <MDBDropdownMenu>
+             <MDBDropdownItem link>Action</MDBDropdownItem>
+           <MDBDropdownItem link>Another action</MDBDropdownItem>
+             <MDBDropdownItem link>Something else here</MDBDropdownItem>
+            </MDBDropdownMenu>
+          </MDBDropdown>
       </MDBCollapse>
     </MDBContainer>
   </MDBNavbar>

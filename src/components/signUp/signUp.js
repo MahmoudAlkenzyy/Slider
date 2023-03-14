@@ -37,7 +37,7 @@ const SignUP = () => {
           
            
           <form className={`p-3 my-5 d-flex flex-column   ${style.coontainer} w-50 con`}>
-          <h4 className={`${style.h}`}>Welcome to Move </h4>  
+          <h4 className={`${style.h}`}>Welcome to Mova </h4>  
             <label for='form1'>Name</label>
             <input wrapperClass='mb-4' label='Email address' id='form1' type='email' className={`{} form-control`} />           
             <label for='form3'>email</label>

@@ -43,7 +43,7 @@ function NavScrollExample() {
     
     
     <MDBNavbar expand='lg' dark sticky  className={`${style.nav}    `  }>
-    <MDBContainer fluid inverse>
+    <MDBContainer fluid show='showNavRight'>
       <MDBNavbarToggler type='button' data-target='#navbarTogglerDemo03' aria-controls='navbarTogglerDemo03' aria-expanded='false'
         aria-label='Toggle navigation'
         onClick={() => setShowNavNoTogglerThird(!showNavNoTogglerThird)}>
@@ -51,14 +51,14 @@ function NavScrollExample() {
       </MDBNavbarToggler>
       <MDBNavbarBrand href="/home/homaPage"> <span className='mb-0 h4' > MOVA</span></MDBNavbarBrand>
       <MDBCollapse navbar show={showNavNoTogglerThird}>
-        <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
+        <MDBNavbarNav className='mr-auto mb-2 mb-lg-0' right>
           <MDBNavbarItem>
   
             <MDBNavbarLink active aria-current='page'href="/" className={style.link}>sign up </MDBNavbarLink>
             </MDBNavbarItem>
             
           <MDBNavbarItem>
-            <MDBNavbarLink href="/home/login" className={`${style.link} `}>Log in</MDBNavbarLink>
+            <MDBNavbarLink href="/home/login" className={`${style.link}  `}>Log in</MDBNavbarLink>
           </MDBNavbarItem>
           <MDBNavbarItem>
             

@@ -1,8 +1,16 @@
 .mainc{
-    background-color: aliceblue;
-    height: 100vh;
-    width: 100%;
-    background-image: url;
+  
+   
+   
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/128/887/619/spider-man-marvel-comics-comics-spider-wallpaper-thumb.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+   
+
+}
+.maind{
+
+     backdrop-filter:brightness(40%);
 }
 .fir{
    
@@ -10,9 +18,9 @@
     height: 70dvh;
     background-size: cover;
     position : center;
-    left: 5%;
+   
     
-   filter: brightness(.5);
+   filter: brightness(.7);
 }
 
 
